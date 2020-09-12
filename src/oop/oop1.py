@@ -23,9 +23,7 @@ class Vehicle:
 vehicle = Vehicle()
 print(vehicle)
 class GroundVehicle(Vehicle):
-    def __init__(self):
-        super().__init__()
-        pass
+    pass
 ground_vehicle = GroundVehicle()
 print(ground_vehicle)
 class Car(GroundVehicle):
